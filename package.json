@@ -1,6 +1,6 @@
 {
   "name": "wx-api-generator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a simple generator from wx-api-docs",
   "main": "lib/index.js",
   "types": "lib/index.d.js",
@@ -59,17 +59,6 @@
     "@commitlint/cli": "^12.0.1",
     "@commitlint/config-conventional": "^12.0.1",
     "@roseys/csstype": "^2.6.9-beta.0",
-    "@types/autoprefixer": "^9.7.2",
-    "@types/babel__core": "^7.1.14",
-    "@types/case-sensitive-paths-webpack-plugin": "^2.1.5",
-    "@types/jest": "^26.0.22",
-    "@types/mini-css-extract-plugin": "^1.4.1",
-    "@types/node": "^11.15.16",
-    "@types/prettier": "^2.2.3",
-    "@types/terser-webpack-plugin": "^5.0.3",
-    "@types/webpack": "^4.41.18",
-    "@types/webpack-bundle-analyzer": "^3.9.2",
-    "@types/webpackbar": "^4.0.1",
     "@typescript-eslint/eslint-plugin": "^4.20.0",
     "@typescript-eslint/parser": "^4.20.0",
     "autoprefixer": "^8.6.5",
@@ -132,6 +121,6 @@
     "webpack-dev-server": "^3.11.2",
     "webpack-merge": "^5.7.3",
     "webpackbar": "^5.0.0-3",
-    "wx-api-docs": "^1.0.1"
+    "wx-api-docs": "^1.0.2"
   }
 }
