@@ -122,5 +122,8 @@
     "webpack-merge": "^5.7.3",
     "webpackbar": "^5.0.0-3",
     "wx-api-docs": "^1.0.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.22"
   }
 }
