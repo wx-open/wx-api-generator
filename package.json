@@ -1,6 +1,6 @@
 {
   "name": "wx-api-generator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "a simple generator from wx-api-docs",
   "main": "lib/index.js",
   "types": "lib/index.d.js",
@@ -114,6 +114,7 @@
     "ts-jest": "^26.5.4",
     "ts-loader": "^8.1.0",
     "typescript": "^3.3.3",
+    "file-loader": "^6.2.0",
     "typings-for-css-modules-loader": "^1.7.0",
     "url-loader": "^1.1.2",
     "webpack": "^4.46.0",
