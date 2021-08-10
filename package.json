@@ -1,6 +1,6 @@
 {
   "name": "wx-api-generator",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "a simple generator from wx-api-docs",
   "main": "lib/index.js",
   "types": "lib/index.d.js",
@@ -93,7 +93,6 @@
     "eslint-plugin-prettier": "^3.3.1",
     "eslint-plugin-react": "^7.22.0",
     "eslint-webpack-plugin": "^2.5.2",
-    "father-build": "^1.19.3",
     "html-webpack-plugin": "^4.3.0",
     "husky": "^5.1.1",
     "jest": "^26.6.3",
@@ -121,10 +120,13 @@
     "webpack-bundle-analyzer": "^4.4.0",
     "webpack-dev-server": "^3.11.2",
     "webpack-merge": "^5.7.3",
-    "webpackbar": "^5.0.0-3",
-    "wx-api-docs": "^1.0.2"
+    "webpackbar": "^5.0.0-3"
+  },
+  "peerDependencies": {
+    "wx-api-docs": "latest"
   },
   "devDependencies": {
+    "father-build": "^1.19.3",
     "@types/jest": "^26.0.22"
   }
 }
